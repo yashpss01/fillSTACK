@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #78A1BB;
+    font-family: fantasy;
+}
+h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top:20px;
+    margin-bottom: -15px;
+    
+}
+h2{
+    text-align: center;
+}
+#game{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #EBF5EE;
+}
+p{
+    margin-bottom: 20px;
+}
+li{
+    list-style: circle;
+    margin-bottom: 10px;
+}
+ul{
+    margin-left: 600px;
+    text-align: left;
+}
+#btn{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem auto;
+    background-color: #BFA89E;
+}
+#btn:active{
+    background-color: #283044;
+}
+.slider{
+    visibility: hidden;
+    height: 20px;
+    width: 200px;
+    background-color: #283044;
+    position: relative;
+}
+#slider1{
+    visibility: visible;
+}
+.animate{
+    animation: slide 4s infinite linear;
+}
+@keyframes slide {
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 300px;
+    }
+    100%{
+        left: 0px;
+    }
+    
+}
